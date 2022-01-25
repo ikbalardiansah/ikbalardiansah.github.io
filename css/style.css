@@ -1,11 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
 * {
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Comic Neue", cursive;
 }
-.portofolio-item {
-  cursor: pointer;
+.portofolio-item .btn {
+  padding: 2px 5px;
+  color: #fff;
 }
-.portofolio-item:hover {
-  transform: scale(1.2);
+.portofolio-item .btn:hover {
+  background-color: #fff;
+  color: cornflowerblue;
 }
